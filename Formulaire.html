@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="info">
+   <legend style="text-align: center ;"> <h1><u>INSCRIPTION</u></h1></legend>
+   <div class="container">
+       <div class="row">
+    <form style="margin: 50px;" method="post" action="traitement.php"> 
+        <fieldset>
+                <legend><h2><em>Etat civil</em></h2></legend>
+            <label for="Nom">Nom</label><input type="text" name="Nom" id="Nom" class="form-control"/><br/><br/>
+            <label for="Prénom">Prénom</label><input type="text" name="Prénom" id="Prénom" class="form-control"/>
+            
+        </fieldset>
+        <fieldset>
+            <legend><h2><em>Coordonnées</em></h2></legend>
+            <label for="email">Adresse électronique</label>
+            <input type="email" name="email" id="email" class="form-control"/><br><br>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" class="form-control"/><br/><br>
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo"/>
+        </fieldset>
+        <p>     
+            <em><strong>Sexe</strong></em></br>
+            <input type="radio"  name="Sexe" value="homme" id="homme" /> <label for="homme">homme</label><br/>
+            <input type="radio" name="Sexe" value="femme" id="femme" /> <label for="femme">femme</label><br/>
+        </p>
+        <p>
+            <em><strong>Pays d'origine</strong></em></br>
+            <select name="pays" id="pays">
+                <option value="bénin">Béninoise</option>
+                <option value="algerie">Algerienne</option>
+                <option value="mali">Maliene</option>
+                <option value="congo">Congolaise</option>
+                <option value="rwanda">Rwandaise</option>
+                <option value="namibie">Namibienne</option>
+                <option value="gabon">Gabonaise</option>
+                <option value="malawi">Malawienne</option>
+                <option value="tchad">Tchadienne</option>
+                <option value="angola">Angolais</option>
+                <option value="togo">Togolaise</option>
+                <option value="burkina">Burkinabé</option>
+                <option value="maroc">Marocaine</option>
+                <option value="sénegal">Sénégalaise</option>
+                <option value="côte d'ivoire">Ivoirienne</option>
+                <option value="cameroon">Cameroonaise</option>
+                <option value="ethiopie">Ethiopienne</option>
+                <option value="niger">Nigerienne</option>
+                <option value="nigeria">Nigeriane</option>
+                <option value="ghana">Ghanéenne</option>
+               
+            </select>
+        </p></br>
+        <fieldset>
+            <legend><h2><em class="">Passe-temps préférés</em><br></h2></legend>
+            <input type="checkbox" name="musique" id="musique"/><label for="meta">Musique</label></br>
+            <input type="checkbox" name="football" id="football"/><label for="football">Football</label></br>
+            <input type="checkbox" name="" id="basket"/><label for="basket">Basket-ball</label></br>
+            <input type="checkbox" name="programmation" id="programmation"/><label for="programmation">Programmation</label></br><br>
+    
+        </fieldset>
+        
+        <input type="submit" class="btn btn-success">
+        <input type="reset" class="btn btn-danger">
+        <input type="button" class="btn btn-warning" value="Quitter">     
+    </div>
+    </form>
+    </fieldset>
+    
+</body>
+</html>

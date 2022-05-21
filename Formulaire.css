@@ -1,0 +1,42 @@
+body
+{
+    background-color: rgb(201, 216, 217);
+}
+.info
+{
+    border-color: aqua;
+}
+.container
+{
+    background-color:transparent;
+    margin-right: 50%;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 50%;
+
+}
+h1
+{
+    font-family: courgette;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30px;
+}
+h2
+{
+    font-family: Playball;
+    font-size: 35px;
+    color: rgb(142, 185, 172);
+}
+label
+{
+    font-family: arial;
+    font-size: 15px;
+    color: rgb(8, 30, 30);
+}
+.status
+{
+    font-family: arial;
+    font-size: 15px;
+    color: rgb(8, 30, 30  
+}

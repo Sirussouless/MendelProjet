@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue en IG1-B</title>
+    <h1 style="text-align:center">BIENVENUE EN IG1-B</h1>
+</head>
+<body>
+    <h2 style="text-align: center"><img src="Moi.jpg" class="imageflottante" alt="Image Flottante" width="120px" height="160px" style="float:left"><img src="eneam.png" class="imgflottante" alt="Img Flottante" width="160px" height="160px" style="float:right">Ecole Nationale de l'Economie Appliquée et de Management</h2></br>
+    <p class="dessous">Je m'appelle Mendel AFATON. Je suis né le 18 Mai 2004 à Cotonou.
+        Je suis étudiant en Informatique de Gestion à l'eneam. J'ai acumulé tout au long de mon cursus scolaire de nombreux <a href="#Diplômes">diplômes</a>.
+    </p>
+    <h4 id="Diplômes" style="text-align: center">Mes Diplômes</h4>
+        <ul>
+            <li> BAC D</li>
+            <li>BEPC</li>
+            <li> CEP</li>
+        </ul> 
+    <hr/>      
+    <form method="POST" action="traitement.php">
+        <fieldset>
+            <legend id="zone d'appréciation"><h4><em>Zone d'appréciation</em></h4></legend>
+            <label for="Nom"><em>Nom</em></label><input type="text" name="Nom" id="Nom"/>
+            <label for="Prenoms"><em>Prénoms</em></label><input type="text" name="Prenoms" id="Prenoms" />
+            <br/>
+            <p>
+                <label for="appréciation">Appréciation</label><br><textarea name="appéciation" id="appréciation"></textarea>
+            </p>
+</body>
+</html>
